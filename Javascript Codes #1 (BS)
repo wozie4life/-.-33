@@ -21,5 +21,5 @@ api.setClientOption(playerId,'clientoption',true/false)
 function playerCommand(id, command)=>
 {if(command.startsWith("command")){api.sendMessage(id, [{str:"text",style:{ color:"color" }}])}
 // add an ; at the end and then repeat the command without the { at front and without a space!
-// personally, I use api.log("e") or console.log("e") to force activate the code.
+// personally, I use api.log("e") or console.log("e") to force activate the code incase it bugs and doesn't start.
 // since, I had to manually type everything please note some things may be wrong. (all of these codes were made by me!)
