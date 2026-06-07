@@ -1,0 +1,18 @@
+// "basic key functions"
+api.sendMessage(myId, "message", { color:"color" })
+api.log(number+number)
+// "code displayed in line 3 solves the equation listed" ex: 1+1=2
+api.broadcastMessage("message", { color:"color" })
+// "code displayed above does not need myId as it's not only affecting the person activating the command.
+api.changePlayerIntoSkin(myId,"bodypart","skin")
+api.giveItem(myId,"item",number)
+api.setPlayerPose(myId,"pose")
+api.sendTopRightHelper(myId,"message","icon",{ color:"color" })
+console.log('msg')
+// "world code"
+function on(FunctionName) = (playerId) => {
+// display command
+}
+}
+// myId is switched to playerId because it is world code not a code block.
+// or you can change the variable (optional)
